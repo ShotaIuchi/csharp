@@ -8,10 +8,7 @@ namespace csharpcui.sub
 {
     partial class SubProgram
     {
-        public int func(int x)
-        {
-            return x;
-        }
-        partial void funcB() { }
+        public void funcA() { }
+        partial void funcB();
     }
 }

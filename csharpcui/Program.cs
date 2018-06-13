@@ -13,6 +13,7 @@ namespace csharpcui
         {
             SubProgram xp = new SubProgram();
             xp.func(0);
+            xp.funcA();
         }
     }
 }
