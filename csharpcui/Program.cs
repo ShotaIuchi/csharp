@@ -1,4 +1,5 @@
-﻿using System;
+﻿using csharpcui.sub;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace csharpcui
     {
         static void Main(string[] args)
         {
+            SubProgram xp = new SubProgram();
+            xp.func(0);
         }
     }
 }
